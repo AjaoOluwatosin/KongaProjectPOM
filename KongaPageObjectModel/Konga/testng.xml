@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/i5/Downloads/KongaPageObjectModel/Konga">
+        <classes><class name="category.CategoryTests">
+            <methods>
+                <include name="PageTitle"/>
+                <include name="MyCartTest"/>
+                <include name="StoreLocator"/>
+                <include name="Groceries"/>
+                <include name="Health"/>
+                <include name="Drinks"/>
+            </methods>
+        </class>
+            <class name="homePage.HomePageTests">
+                <methods>
+                    <include name="LoginSuccessful"/>
+                    <include name="HomePageTitle"/>
+                </methods>
+            </class>
+            <class name="loginPage.LoginPageTests">
+                <methods>
+                    <include name="AssertPageUrl"/>
+                    <include name="AssertName"/>
+                </methods>
+            </class>
+            <class name="setUp.SetUpTests">
+                <methods>
+                    <include name="testLogout"/>
+                </methods></class></classes></test></suite>
