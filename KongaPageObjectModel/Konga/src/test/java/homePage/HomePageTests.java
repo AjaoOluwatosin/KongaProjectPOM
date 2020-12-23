@@ -34,10 +34,10 @@ public class HomePageTests {
         driver.findElement(By.xpath("//*[@id=\"app-content-wrapper\"]/div[3]/nav/div[2]/div/div[3]/div[2]/a")).click();
 
         //Locate the email field and inspect
-        driver.findElement(By.id("username")).sendKeys("muhammadbasheerishola@gmail.com");
+        driver.findElement(By.id("username")).sendKeys("ajaotj36@gmail.com");
 
         //locate and inspect the password field
-        driver.findElement(By.id("password")).sendKeys("CU2M0R0W#");
+        driver.findElement(By.id("password")).sendKeys("victoria2077@@@");
 
         //locate and inspect the Login button
         driver.findElement(By.xpath("/html/body/div[1]/div/section/div[4]/section/section/aside/div[2]/div/form/div[3]/button")).click();
